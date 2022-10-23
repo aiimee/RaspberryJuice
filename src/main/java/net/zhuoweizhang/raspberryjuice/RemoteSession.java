@@ -271,7 +271,7 @@ public class RemoteSession {
 				send(removedEntitiesCount);
 				
 			// chat.post
-			} else if (c.equals("chat.post")) {
+			} else if (c.equals("chat.postd")) {
 				//create chat message from args as it was split by ,
 				String chatMessage = "";
 				int count;
